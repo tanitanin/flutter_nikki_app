@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nikki_app/views/my_splash.dart';
 import 'views/my_home_page.dart';
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,10 @@ class MyApp extends StatelessWidget {
         // This is the theme of your application.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Nikki App Home Page'),
+      home: MySplash(
+          nextWidget: MyHomePage(
+        title: 'Nikki App',
+      )),
     );
   }
 }
