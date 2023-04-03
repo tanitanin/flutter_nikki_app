@@ -1,6 +1,6 @@
 # nikki_app
 
-A new Flutter project.
+A diary app with GPT.
 
 ## Getting Started
 
